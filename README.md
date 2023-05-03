@@ -7,6 +7,13 @@
 The dataset contains information on 2000+ used cars including make, model, manufacturer, price, year of production, fuel type, states sold in, and kilometers driven. It provides valuable insights into the used car market, including popular models, manufacturer companies, and average prices in different states. The year of production and kilometers driven provide additional information on vehicle age and condition, while the fuel type can help identify consumer preferences in different regions. Overall, it is a comprehensive source of data for businesses and researchers seeking to understand and make data-driven decisions in the used car market.
 <br>
 
+## Data Dictionary:
+| Files | Description |
+| -------| ---------- |
+| power_bi_final_evualution.pbix | This file contains dashboard of the dataset in PowerBI. Its also contains data cleaning steps in Power-Query editor. |
+| used_cars_mysql_script.sql | This MySQL script tries to show how we can remove noise or prepare our dataset in a Sql Workbench |
+
+
 ## Data Preparation:
 
 ![image](https://user-images.githubusercontent.com/55955478/235958792-3a011c22-38f9-4a93-a6d8-343362db1c34.png)
@@ -30,8 +37,6 @@ We analyzed the data to gain insights into the used car market, including the fo
 ## Dashboard
 
 ![image](https://user-images.githubusercontent.com/55955478/235959748-d8f1d243-0362-4e67-880d-b21fba7aa149.png)
-
-We created a dashboard to present our visualizations and allow users to interact with the data. The dashboard includes filters and slicers to allow users to customize the data being displayed. We used clear and concise data labels, appropriate font size and color scheme, and proper alignment and spacing of visualizations to improve readability. We also provided appropriate titles for the visualizations, reports, and dashboard.
 <br>
 
 ## Evaluation Criteria
