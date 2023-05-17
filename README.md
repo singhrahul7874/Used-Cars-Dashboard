@@ -10,20 +10,25 @@ The dataset contains information on 2000+ used cars including make, model, manuf
 ## Data Dictionary:
 | Files | Description |
 | -------| ---------- |
-| power_bi_final_evualution.pbix | This file contains dashboard of the dataset in PowerBI. Its also contains data cleaning steps in Power-Query editor. |
-| used_cars_mysql_script.sql | This MySQL script tries to show how we can remove noise or prepare our dataset in a Sql Workbench |
-
+| Data Visualization | This folder contains dashboard of the dataset in PowerBI. Its also contains data cleaning steps in Power-Query editor. |
+| Data_Cleaning | This folder comprises a collection of MySQL scripts that demonstrate techniques for noise removal and dataset preparation within a SQL Workbench environment.|
+| Dataset | This folder contains raw data of Used_cars |
+| README.md | This is a readme file of the project |
 
 ## Data Preparation:
 
 ![image](https://user-images.githubusercontent.com/55955478/235958792-3a011c22-38f9-4a93-a6d8-343362db1c34.png)
 
-To prepare the data, we performed the following steps using the Power Query Editor:
-  1. Dropped nulls, blank rows, and duplicate rows.
-  2. Created a "Row ID" column as the unique identifier for each row, starting from 1000 with an increment of 1 for each row.
-  3. Changed the data types of the columns accordingly.
-  4. Created two new columns from the car_name column: "Brand" and "Car model".
-  5. Removed the original "car_name" column.
+
+The data preparation process involved the following steps using the Power Query Editor:
+
+  1. Eliminated nulls, blank rows, and duplicate entries.
+  2. Generated a unique identifier for each row called "Row ID," starting from 1000 and incrementing by 1 for each subsequent row.
+  3. Adjusted the data types of the columns to ensure proper data representation.
+  4. Derived two new columns, "Brand" and "Car model," from the existing "car_name" column.
+  5. Removed the original "car_name" column to maintain a streamlined dataset.
+  
+Through these actions, the data was refined and optimized for further analysis and utilization.
 
 ## Data Analysis:
 We analyzed the data to gain insights into the used car market, including the following:
@@ -35,6 +40,17 @@ We analyzed the data to gain insights into the used car market, including the fo
 <br>
 
 ## Dashboard
+The Power BI dashboard developed provides a comprehensive analysis of the used car market, highlighting key insights and trends. The visualizations incorporated in the dashboard shed light on several important aspects, enabling users to make informed decisions based on the data. Here is a description of the dashboard's key components:
+
+Scatter Plot: The scatter plot visualizes the relationship between the age of a used car and its corresponding price. This helps to understand how the price varies as cars age, identifying any potential correlations or trends.
+
+Bar Chart: The bar chart showcases the top 10 brands based on their average prices. It allows users to compare the pricing across different brands and identify the ones commanding higher or lower prices in the market.
+
+Pie Chart: The pie chart illustrates the percentage of used cars in different cities, specifically focusing on cars with prices exceeding 10 Lakh. This helps in identifying the cities with a higher concentration of expensive used cars, providing insights into regional market dynamics.
+
+Multi-Row Card Visualization: The multi-row card visualization provides a summarized view of the number of cars in low, middle, and high-end price categories based on fuel type. This allows users to understand the distribution of cars across price ranges and fuel types.
+
+Overall, the Power BI dashboard offers a comprehensive and visually engaging analysis of the used car market, highlighting the relationships between price, age, brand, city, and fuel type. It enables users to explore the data, uncover meaningful insights, and make informed decisions based on the presented visualizations.
 
 ![image](https://user-images.githubusercontent.com/55955478/235959748-d8f1d243-0362-4e67-880d-b21fba7aa149.png)
 <br>
