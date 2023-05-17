@@ -31,12 +31,16 @@ The data preparation process involved the following steps using the Power Query 
 Through these actions, the data was refined and optimized for further analysis and utilization.
 
 ## Data Analysis:
-We analyzed the data to gain insights into the used car market, including the following:
-  1. Relationship between the age of a used car and its price.
-  2. Top 10 brands based on the average price.
-  3. Percentage of used cars in different cities for cars whose price is greater than 10 Lakh.
-  4. Number of cars in low, middle, and high-end categories based on price and fuel type.
-  5. We used various visualizations, including a scatter plot, bar chart, pie chart, and multi-row card visualization, to present our findings.
+The data analysis focused on extracting insights from the used car market dataset, covering the following aspects:
+
+  1. Analyzing the correlation between the age of a used car and its corresponding price.
+  2. Identifying the top 10 brands based on their average prices.
+  3. Determining the percentage of used cars in different cities for vehicles priced above 10 Lakh.
+  4. Examining the distribution of cars across low, middle, and high-end price categories based on both price and fuel type.
+
+To visually present our findings, a variety of informative visualizations were employed, including a scatter plot to showcase the age-price relationship, a bar chart to display the top 10 brands and their average prices, a pie chart to represent the percentage of used cars in different cities exceeding 10 Lakh, and a multi-row card visualization to highlight the number of cars categorized by price range and fuel type.
+
+The Power BI dashboard created provides a comprehensive overview of the used car market, empowering users to explore the data, uncover meaningful insights, and make data-driven decisions based on the presented visualizations.
 <br>
 
 ## Dashboard
