@@ -65,3 +65,9 @@ WHERE car_model REGEXP "[uncopyrightable]$";
 -- Removing non-alphabetic characters from the car_model column using regular expression
 SELECT REGEXP_REPLACE(car_model, "[^a-zA-Z]", "") AS car_model
 FROM used_car_dataset;
+
+-- The above code performs various data cleaning and transformation operations on the "used_car_dataset" 
+-- table in the "used_cars" database. It removes unwanted characters from the "kms_driven" and "car_price_in_rupees" columns, 
+-- converts car prices to a standard format, adds "brand" and "car_model" columns, populates them based on the car name, trims 
+-- whitespace, and drops the "car_name" column. It also demonstrates filtering records based on specific conditions using both 
+-- basic string operations and regular expressions. 
