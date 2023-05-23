@@ -44,17 +44,25 @@ The Power BI dashboard created provides a comprehensive overview of the used car
 <br>
 
 ## Dashboard
-The Power BI dashboard developed provides a comprehensive analysis of the used car market, highlighting key insights and trends. The visualizations incorporated in the dashboard shed light on several important aspects, enabling users to make informed decisions based on the data. Here is a description of the dashboard's key components:
+Power BI Dashboard: Used Car Market Analysis
 
-Scatter Plot: The scatter plot visualizes the relationship between the age of a used car and its corresponding price. This helps to understand how the price varies as cars age, identifying any potential correlations or trends.
+1. <span style="color:blue"><b>Line Plot</b></span> :
+     Visualizes the relationship between the age of a used car and its corresponding price.
+    Helps understand how the price varies as cars age, identifying any potential correlations or trends.
+  
+2. <b>Bar Chart</b> :
+     Showcases the top 10 brands based on their average prices.
+    Allows users to compare pricing across different brands and identify those commanding higher or lower prices in the market.
+  
+3. <b>Pie Chart</b> :
+     Illustrates the percentage of used cars in different cities, specifically focusing on cars with prices exceeding 10 Lakh.
+    Helps identify cities with a higher concentration of expensive used cars, providing insights into regional market dynamics.
+  
+4. <b>Multi-Row Card Visualization</b> :
+     Provides a summarized view of the number of cars in low, middle, and high-end price categories based on fuel type.
+    Allows users to understand the distribution of cars across price ranges and fuel types.
 
-Bar Chart: The bar chart showcases the top 10 brands based on their average prices. It allows users to compare the pricing across different brands and identify the ones commanding higher or lower prices in the market.
-
-Pie Chart: The pie chart illustrates the percentage of used cars in different cities, specifically focusing on cars with prices exceeding 10 Lakh. This helps in identifying the cities with a higher concentration of expensive used cars, providing insights into regional market dynamics.
-
-Multi-Row Card Visualization: The multi-row card visualization provides a summarized view of the number of cars in low, middle, and high-end price categories based on fuel type. This allows users to understand the distribution of cars across price ranges and fuel types.
-
-Overall, the Power BI dashboard offers a comprehensive and visually engaging analysis of the used car market, highlighting the relationships between price, age, brand, city, and fuel type. It enables users to explore the data, uncover meaningful insights, and make informed decisions based on the presented visualizations.
+In conclusion, the Power BI dashboard provides a comprehensive analysis of the used car market, presenting key insights through visualizations. Users can explore the relationships between price, age, brand, city, and fuel type, empowering them to make informed decisions based on the data.
 
 ![image](https://user-images.githubusercontent.com/55955478/235959748-d8f1d243-0362-4e67-880d-b21fba7aa149.png)
 <br>
@@ -69,16 +77,37 @@ We evaluated our dashboard based on the following criteria:
   6. Use of appropriate background color to improve the visibility of visualizations.
 
 ## Conclusion:
-Our analysis of the used car sales dataset revealed several interesting insights that can be valuable for businesses operating in the used car market. Through the use of Power BI, we were able to transform and visualize the data in a way that allowed us to gain a deeper understanding of the market trends.
+Insights from the Used Car Sales Analysis:
 
-Firstly, we cleaned the data by removing null, blank and duplicate rows, and created a unique identifier for each row. We also changed the data types of the columns accordingly. Furthermore, we created two new columns - brand and car model - from the car_name column, which gave us a better understanding of the popular car brands and models in the market.
+1. Data Cleaning and Transformation:
 
-We then analyzed the relationship between the age of a used car and its price, which allowed us to determine that the older a car is, the lower its price tends to be. We also created a visualization that showed the relationship between the age of a used car and its price, which provided a clear understanding of this relationship.
+    Removed null, blank, and duplicate rows.
+    Created unique identifiers for each row.
+    Adjusted data types and derived brand and car model columns.
 
-Next, we created a bar chart that showed the top 10 brands based on the average price, with the city and count of cars in that city in the tooltip. This provided insight into the popular car brands in different cities, and how they compare in terms of pricing.
+2. Age and Price Relationship:
 
-We also created a pie chart that showed the percentage of used cars in different cities for cars whose price is greater than 10 Lakh. This provided valuable insights into the distribution of used cars in different cities and the popularity of the used car market in these cities.
+    Discovered that older cars tend to have lower prices.
+    Visualized the age-price relationship for clear understanding.
 
-In addition, we created a calculated column to divide the cars into three categories - Low End, Middle End, and High End - based on their price. We then created a bar chart to show the number of cars in these categories, with fuel type as the legend. This provided insights into the popularity of different price categories and how they relate to fuel type.
+3. Top 10 Brands by Average Price:
 
-We then created a multi-row card visualization that showed the average, min, and max price of cars, the average kilometers driven by all the cars, and the total number of cars in the dataset. This provided a comprehensive overview of the used car market.
+    Identified popular car brands based on average prices.
+    Tooltip included city and car count for additional insights.
+
+4. Used Car Distribution in Cities:
+
+    Pie chart revealed the percentage of used cars above 10 Lakh price in different cities.
+    Provided insights into regional market dynamics.
+
+5. Price Categories and Fuel Types:
+
+    Created categories (Low End, Middle End, High End) based on car prices.
+    Bar chart displayed the number of cars in each category, with fuel type as the legend.
+
+5. Comprehensive Market Overview:
+
+    Multi-row card visualization presented average, min, and max prices, average kilometers driven, and total car count.
+    Provided a comprehensive snapshot of the used car market.
+  
+The Power BI analysis of the used car sales dataset offers valuable insights into market trends, enabling businesses to make informed decisions.
